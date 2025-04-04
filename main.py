@@ -34,6 +34,7 @@ y_pred = model.predict(X_test)
 print("Model Evaluation:")
 print(classification_report(y_test, y_pred))
 
+
 # Step 7: Check feature importance
 feature_importance = pd.DataFrame({
     'Feature': features,
